@@ -8,7 +8,7 @@ public class ApplicationTest {
 	
 	@Test
 	public void testApplication() {
-		fail("Not Implemented");
+		
 	}
 
 }
