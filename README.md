@@ -34,7 +34,6 @@ To make it a complete XML parser below changes should be done:
 
 # Author
 Abhishek Upadhyay
-Complete application is build by one person.  The contributor list will show two contributors because author has two github accounts: shekup and aupadhyaywind
 
 # References
 DOM Model: https://www.w3.org/TR/WD-DOM/introduction.html  Scanner class guide: http://pages.cs.wisc.edu/~hasti/cs368/JavaTutorial/NOTES/JavaIO_Scanner.html  
