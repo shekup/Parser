@@ -12,7 +12,6 @@ public class NodeUtility {
 	
 	public static Node getNode(String xmlInputLine) {
 		Node node = new Node();
-		System.out.println("Node tag: " + xmlInputLine);
 		
 		if(xmlInputLine.endsWith("/")) {
 			System.out.println("Empty tag");
@@ -26,7 +25,7 @@ public class NodeUtility {
 				node.setStart(true);
 			}
 		}
-	
+		System.out.println("Node tag: " + xmlInputLine);
 		node.setName(xmlInputLine);
 		node.setValue(xmlInputLine);
 		return node;

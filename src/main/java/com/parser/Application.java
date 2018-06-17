@@ -18,14 +18,16 @@ public class Application {
 		System.out.println( "You choose file: " + inputFile  + ", Let us parse it");
 		
 		// 2. Parse the file
-		parseXML(inputFile);
+		// later modify it to parse each input file in separate thread and in parallel
+		Application application = new Application();
+		application.parseXML(inputFile);
 		
 		// 3. Release resources
 		scanner.close();
 
 	}
 	
-	private static void parseXML(String inputfile) {
+	public void parseXML(String inputfile) {
 		
 		try {
 			
